@@ -1,3 +1,0 @@
-react native boilerplate
-flutter
-electron
