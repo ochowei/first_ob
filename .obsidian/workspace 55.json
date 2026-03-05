@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "9a4e974848993147",
+    "type": "split",
+    "children": [
+      {
+        "id": "c117a79206a43fa0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79f56f37f1b914a7",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "mind/投資.canvas",
+                "viewState": {
+                  "x": -610,
+                  "y": -71,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "投資"
+            }
+          },
+          {
+            "id": "fee2b8a03f8b6def",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "mind/投資.canvas",
+                "viewState": {
+                  "x": -300,
+                  "y": -87,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "投資"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5428a1a5427bf866",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a18c351731221d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3e43f8685662e0c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1621b93d067ea0b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "691b402fe55ddac8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3483a0c0f2dc7633",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b6b890304a0f7a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd0a5d1ff1d8a732",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "穩定幣/Untitled.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled"
+            }
+          },
+          {
+            "id": "e57d5776cec5f960",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "穩定幣/Untitled.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled"
+            }
+          },
+          {
+            "id": "d4f879bd0c301c76",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "382c983dffbbba82",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "穩定幣/Untitled.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "fee2b8a03f8b6def",
+  "lastOpenFiles": [
+    "投資.md",
+    "mind/投資.canvas",
+    "mind/Mind.canvas",
+    "mind/軟體.canvas",
+    "mind/遊戲.canvas",
+    "mind/生產力系統.canvas",
+    "Github上面是否有公開的，narrative game，的劇本.md",
+    "here.md",
+    "Tango Workshop 參加紀錄.md",
+    "mind"
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "46cf966ef009964c",
+    "type": "split",
+    "children": [
+      {
+        "id": "1177a35c85ba5fb2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20b5be8dfd095cfe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作/Stock/FIREman 39歲退休實戰筆記 讀書心得.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "FIREman 39歲退休實戰筆記 讀書心得"
+            }
+          },
+          {
+            "id": "3ff54774eaffcf75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "興趣愛好/Tango Workshop 參加紀錄.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tango Workshop 參加紀錄"
+            }
+          },
+          {
+            "id": "609cc4c3cd5fbbc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "興趣愛好/TTF 課程筆記.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TTF 課程筆記"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "776a6be161d17468",
+    "type": "split",
+    "children": [
+      {
+        "id": "33d0ebf67fd5bf05",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "833ff1c68d64ca74",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2e7b689fcc9903be",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1b4ad511d81c6c45",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "52bba37e510ed0b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f69f9c21b12cf79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cae8c142f8e06c51",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "工作/Mind.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Mind"
+            }
+          },
+          {
+            "id": "7b0c5ab5b2af0e09",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "工作/Mind.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Mind"
+            }
+          },
+          {
+            "id": "0d6b2224b9f18c66",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f31673a8f61f889f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "工作/Mind.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Mind"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "609cc4c3cd5fbbc0",
+  "lastOpenFiles": [
+    "興趣愛好/Tango Workshop 參加紀錄.md",
+    "興趣愛好/TTF 課程筆記.md",
+    "興趣愛好/2025 Kyoko 子涵 Workshop.md",
+    "工作/Stock/Amber姐姐美股投資週記 - 《一次回答三位粉絲提問，給小白的資源清單》.md",
+    "工作/Stock/聯準會主席演講.canvas",
+    "工作/Stock/網紅推薦的美股 MGK, SMR, LEU, IonQ.md",
+    "工作/Stock/幾個常見的股市經驗法則.md",
+    "工作/Project/NS4F.md",
+    "工作/Project/Sproutify.md",
+    "工作/Stock/現金配置.md",
+    "工作/Stock/為什麼我選擇定期買 IBIT，而不是直接買比特幣？.md",
+    "工作/Stock/財經粉專列表.md",
+    "工作/Stock/兩種視角下的穩定幣世界：一口氣了解穩定幣 vs. Circle火爆IPO.md",
+    "工作/Stock/FIREman 39歲退休實戰筆記 讀書心得.md",
+    "工作/Stock/投資.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Untitled.base",
+    "工作/Stock/AI化大叔美股.md",
+    "工作/Mind.canvas",
+    "工作/mind/遊戲.canvas",
+    "工作/mind/軟體.canvas",
+    "工作/mind/生產力系統.canvas",
+    "工作/Side Project IDEA.md"
+  ]
+}
