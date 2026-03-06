@@ -1,0 +1,11 @@
+# 系統檔案 (如果是 Mac)
+.DS_Store
+
+# Obsidian 垃圾桶
+.trash/
+
+# Obsidian 隨時在變動的使用者狀態檔案
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
