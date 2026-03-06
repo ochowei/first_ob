@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"id":"d0d4da45514900b8","type":"text","text":"ESUIT Posts Exporter for Facebook","x":-180,"y":-160,"width":250,"height":60},
-		{"id":"96c54e3cb6a33793","type":"text","text":"Playwright ","x":-180,"y":-60,"width":250,"height":50}
-	],
-	"edges":[]
-}
