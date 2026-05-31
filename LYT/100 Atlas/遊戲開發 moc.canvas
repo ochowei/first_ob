@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"cc83fd7c6e0db873","type":"text","text":"遊戲開發","x":-244,"y":-300,"width":140,"height":60,"color":"2"},
+		{"id":"f5518a4059162060","type":"text","text":"遊戲資產","x":-104,"y":-180,"width":144,"height":60},
+		{"id":"4dd8d295a720d6a8","type":"text","text":"[[game-asset-2026-1]], [[game-asset-2026-2]]","x":-132,"y":-15,"width":200,"height":90},
+		{"id":"613a2bae8a725954","type":"text","text":"內容創作","x":-680,"y":-270,"width":180,"height":60},
+		{"id":"c7620c19a30ac64d","type":"text","text":"參考資料","x":-895,"y":-270,"width":160,"height":60},
+		{"id":"7913b11c5eae0f21","type":"text","text":"[[是 Ray 不是 Array]]\n[[一定要配温開水]]","x":-1145,"y":-90,"width":250,"height":60},
+		{"id":"84ffcff292f3477a","type":"text","text":"反問","x":-860,"y":-115,"width":180,"height":50},
+		{"id":"0eea11a50265dc29","type":"text","text":"[[用 NotebookLM 挖掘 YouTube 頻道的未涵蓋主題]]","x":-895,"y":15,"width":250,"height":60},
+		{"id":"0e9cc5a3e07d83f8","type":"text","text":"[[Build in Public]]","x":-645,"y":-360,"width":185,"height":60},
+		{"id":"9571d25a021a4760","type":"text","text":"大富翁","x":-383,"y":-160,"width":131,"height":60},
+		{"id":"8d96f8f6d4dd32aa","type":"text","text":"大富翁編輯器","x":-409,"y":-15,"width":183,"height":60},
+		{"id":"a97578209824dec2","type":"text","text":"市場調查\nhttps://claude.ai/share/bc779931-5427-47c7-9ecf-7f13d3944465","x":180,"y":0,"width":372,"height":100},
+		{"id":"d7714db7c95d61bf","type":"text","text":"釣魚小遊戲","x":-104,"y":208,"width":152,"height":60},
+		{"id":"041340528a8e3482","type":"text","text":"Demo 版, 免費版, 付費版","x":-77,"y":413,"width":250,"height":60},
+		{"id":"05097251658fe67f","type":"text","text":"跨平台","x":213,"y":383,"width":153,"height":60},
+		{"id":"42eaa1e8ef5b93eb","type":"text","text":"LPC \n![[2025-05-29#^51ce81]]\n\n","x":-205,"y":506,"width":418,"height":114},
+		{"id":"20ea3c4b6840a6af","type":"text","text":"遊戲地圖 tilemap\nTilemap Rendering","x":-440,"y":413,"width":250,"height":60},
+		{"id":"6b191e0b79ab233e","type":"text","text":"參考資料\nhttps://github.com/0x0funky/agent-sprite-forge","x":340,"y":184,"width":424,"height":60},
+		{"id":"339400c379526c29","type":"text","text":"資源收集\nhttps://lpc.opengameart.org/\n\n[Claude Code 各面向最佳實踐完整研究報告](https://github.com/zeuikli/claude-code-workspace/blob/main/docs/2026-05-16-claude-code-best-practices.md?fbclid=IwY2xjawR3t0RleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeXaMRdB7qn-vgLsalJK7FRAaeZihjCVGlEB-JNk8bZPt0P5GnlJbWEuUJOi0_aem__dQBBCUj3gUlnB1eI6LJyA#claude-code-%E5%90%84%E9%9D%A2%E5%90%91%E6%9C%80%E4%BD%B3%E5%AF%A6%E8%B8%90%E5%AE%8C%E6%95%B4%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A)\n\n唯音輸入法\n\n遊戲地圖\n\nhttps://donitz.itch.io/procedural-tileset-generator\n\nhttps://claude.ai/share/e40cf835-743a-404e-a980-d25fc96e3ae7\n\nhttps://www.redblobgames.com/maps/mapgen4/\n\nhttps://www.youtube.com/watch?v=vOvYazUBlpQ\n\n\n","x":-1081,"y":238,"width":373,"height":473},
+		{"id":"70c72a14edeaf3a5","type":"text","text":"**My Blender 2D/3D Process with Grease Pencil**\n\nhttps://www.youtube.com/watch?v=BzTN2yTgTj0\n","x":-645,"y":100,"width":336,"height":168}
+	],
+	"edges":[
+		{"id":"d5e6a6b70c71ca2b","fromNode":"cc83fd7c6e0db873","fromSide":"bottom","toNode":"9571d25a021a4760","toSide":"top"},
+		{"id":"7f4905b121e8eb8d","fromNode":"f5518a4059162060","fromSide":"bottom","toNode":"a97578209824dec2","toSide":"top"},
+		{"id":"921977adb1e86bff","fromNode":"f5518a4059162060","fromSide":"bottom","toNode":"4dd8d295a720d6a8","toSide":"top"},
+		{"id":"6423ef97282d3b2c","fromNode":"613a2bae8a725954","fromSide":"left","toNode":"c7620c19a30ac64d","toSide":"top"},
+		{"id":"4f313272c9e1a42b","fromNode":"c7620c19a30ac64d","fromSide":"bottom","toNode":"7913b11c5eae0f21","toSide":"top"},
+		{"id":"74d40972641b1313","fromNode":"613a2bae8a725954","fromSide":"bottom","toNode":"84ffcff292f3477a","toSide":"top"},
+		{"id":"33f6ad5aba143a55","fromNode":"84ffcff292f3477a","fromSide":"bottom","toNode":"0eea11a50265dc29","toSide":"top"},
+		{"id":"bbac23f04f68998c","fromNode":"9571d25a021a4760","fromSide":"bottom","toNode":"8d96f8f6d4dd32aa","toSide":"top"},
+		{"id":"217cbe892c4cb23e","fromNode":"4dd8d295a720d6a8","fromSide":"bottom","toNode":"d7714db7c95d61bf","toSide":"top"},
+		{"id":"c03a98d322d78cf0","fromNode":"d7714db7c95d61bf","fromSide":"left","toNode":"4dd8d295a720d6a8","toSide":"left"},
+		{"id":"c04a9b57a6ad7b36","fromNode":"d7714db7c95d61bf","fromSide":"bottom","toNode":"05097251658fe67f","toSide":"top"},
+		{"id":"fc1c11fa428e8831","fromNode":"d7714db7c95d61bf","fromSide":"bottom","toNode":"041340528a8e3482","toSide":"top"},
+		{"id":"19fb77d60091810e","fromNode":"d7714db7c95d61bf","fromSide":"bottom","toNode":"42eaa1e8ef5b93eb","toSide":"top"},
+		{"id":"55b8de467d6bfe17","fromNode":"d7714db7c95d61bf","fromSide":"left","toNode":"20ea3c4b6840a6af","toSide":"right"},
+		{"id":"2819651b7059084e","fromNode":"d7714db7c95d61bf","fromSide":"left","toNode":"339400c379526c29","toSide":"right"}
+	]
+}

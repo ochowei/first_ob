@@ -7,9 +7,43 @@
 
 ## 🏃‍♂️ 行動區 (Efforts) - 當下的專注點
 這個月或這週最優先的 3 個任務/專案：
+
+---
+自動化產生 icon 的 itch bundle 包
+![[game-asset-2026-1]] 
+
+---
+![[研究 Hermes Agent 2026-1]]
+
+---
+
+![[AI 遊戲開發 Youtube]]
+
+
+- [ ] 魔術方塊手機遊戲
+	- [ ] https://github.com/buuing/Rubiks-Cube
 - [ ] trading-2026-1 持續開發
 - [ ] 大富翁地圖編輯器
 - [ ] phaser 小遊戲。
+
+- [ ] PTT MacShop 搜尋
+	- [ ] 使用 prompt 討論專案想法 https://claude.ai/share/9cd644d9-669b-4034-98d2-95b3fb906591
+- [ ] RTK, Notebook LM 節省 token 的方式
+	
+- [ ] AI 學習
+	- [ ] [Claude Code 之父 Boris Cherny 親授：8 個你沒在用的進階技巧](https://www.techhanlin.tw/claude-code-tips-boris-cherny-advanced-techniques/?fbclid=IwY2xjawRhTM9leHRuA2FlbQIxMABicmlkETFDNUZZM1hickN5SkhaTWlSc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHgUZtvzIDAhc2bpsRbF9DAMAtH5_eSmTHyuu_hotNdRM61JnkdtNxYL1y2CL_aem_srA-qP_g4vBYv5vksk6T4g)
+	
+新的 IDEA:
+- [ ] 休息旅館地圖 - 已飽和, FunNow
+- [ ] QTime 等網咖包廂資訊，網路上查不到
+- [ ] google workspace cli
+- [ ] 整理 Indie Hacker 郵件
+- [ ] 動物井
+- [ ] https://gamedev.tv/p/indie-game-dev-fund
+- [ ] [youtube AI + 遊戲搜尋](https://www.youtube.com/results?search_query=AI+%E9%81%8A%E6%88%B2)
+- [ ] [土潑鼠的 # Can You Spot What's Wrong with AI-Generated Designs?](https://www.youtube.com/watch?v=ER4PjxlvVCM)
+
+
 
 ---
 ## 🗺️ 地圖區 (Atlas) - 知識的鳥瞰圖
@@ -33,7 +67,7 @@
 ## 💡 卡片匣 (Cards) - 概念與靈感
 最近紀錄的想法與知識片斷：
 - [[新資訊與需求映射法]] (2026-03-08)
-- [[Google Workspace CLI 研究]] (2026-03-06)
+- [[google-workspace-cli]] (2026-03-06)
 
 ---
 
@@ -53,3 +87,5 @@
 - 📥 [[500 Sources]] 外部資訊與歸檔
 - 🗄️ [[900 Meta]] 設定與模板
 - 💬 [[常用 Prompts]] 常用提示詞
+
+[[https://www.youtube.com/watch?v=EWJyO7VYE3U&t=86s]]
