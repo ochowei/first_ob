@@ -3,8 +3,8 @@ created: 2026-06-01
 kind: clue
 source_type: url
 needs_browsing: false
-reviewed: false
-last_reviewed:
+reviewed: true
+last_reviewed: 2026-06-01
 ---
 
 # Lawsnote vs 法源資訊
