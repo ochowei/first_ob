@@ -7,5 +7,10 @@
   "featured-image",
   "auto-card-link",
   "journals",
+<<<<<<< Updated upstream
   "nldates-obsidian"
+=======
+  "nldates-obsidian",
+  "templater-obsidian"
+>>>>>>> Stashed changes
 ]
