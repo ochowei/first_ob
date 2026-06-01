@@ -1,0 +1,17 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - note["in-progress"] == true
+        - archived != true
+        - or:
+            - file.folder == "V2/600 Project"
+            - file.folder == "V2/400 Exploration"
+            - file.folder == "V2/200 Watchlist"
+    order:
+      - file.name
+      - file.folder
+      - priority
+    columnSize:
+      file.name: 492

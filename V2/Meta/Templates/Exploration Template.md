@@ -33,6 +33,7 @@ category: <% category %>
 
 in-progress: true
 archived: false
+priority: medium
 confidence: low
 
 promote_to_watchlist: false

@@ -5,6 +5,7 @@ domain: dev_tool
 cadence: biweekly
 in-progress: true
 archived: false
+priority: medium
 reviewed: false
 reviewed_at:
 last_surveyed:

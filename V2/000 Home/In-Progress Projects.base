@@ -1,8 +1,0 @@
-views:
-  - type: table
-    name: 表格
-    filters:
-      and:
-        - file.folder == "V2/600 Project"
-        - note["in-progress"] == true
-        - archived != true

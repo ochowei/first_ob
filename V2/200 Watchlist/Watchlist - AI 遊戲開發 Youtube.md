@@ -5,6 +5,7 @@ domain: ai_tool
 cadence: weekly
 in-progress: true
 archived: false
+priority: medium
 reviewed: false
 reviewed_at:
 last_surveyed:

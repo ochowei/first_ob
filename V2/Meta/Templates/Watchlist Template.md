@@ -49,6 +49,7 @@ domain: <% domain %>
 cadence: <% cadence %>
 in-progress: true
 archived: false
+priority: medium
 reviewed: false
 reviewed_at:
 last_surveyed:
