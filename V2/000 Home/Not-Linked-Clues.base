@@ -1,0 +1,18 @@
+formulas:
+  backlink-count: |
+    file.backlinks.length
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.folder == "V2/100 Clues"
+        - formula["backlink-count"] == 0
+    order:
+      - file.name
+      - needs_browsing
+    sort:
+      - property: formula.backlink-count
+        direction: DESC
+    columnSize:
+      file.name: 713

@@ -4,15 +4,14 @@ kind: clue
 source_type: url
 needs_browsing: true
 reviewed: true
-last_reviewed:
+last_reviewed: 2026-06-01
 ---
 
-# 是 Ray 不是 Ray
+# LearnWithHasan
 
 ## Raw Capture
+https://learnwithhasan.com/claude-code-guide/#free-setup
 
-https://israynotarray.com/
-(1) 試著學 Hexo - 序章
 ## Notes
 
 ## Possible Follow-up

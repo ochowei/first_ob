@@ -15,6 +15,7 @@ await tp.file.rename(`Clue-${id} - ${safeTitle}`);
 created: <% tp.date.now("YYYY-MM-DD") %>
 kind: clue
 source_type: <% source %>
+needs_browsing: false
 reviewed: false
 last_reviewed:
 ---

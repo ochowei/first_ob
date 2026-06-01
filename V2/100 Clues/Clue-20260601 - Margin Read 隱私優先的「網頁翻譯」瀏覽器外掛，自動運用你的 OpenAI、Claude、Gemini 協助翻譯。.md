@@ -2,7 +2,8 @@
 created: 2026-06-01
 kind: clue
 source_type: url
-reviewed: true
+needs_browsing: false
+reviewed: false
 last_reviewed: 2026-06-01
 ---
 

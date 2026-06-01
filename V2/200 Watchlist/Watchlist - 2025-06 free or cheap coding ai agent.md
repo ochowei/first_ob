@@ -47,11 +47,19 @@ last_surveyed:
 ### 2026-06-01
 
 ---
+[[Clue-20260601 - Nvidia 大語言模型 API Key]]
+
+---
+[[Clue-20260601 - 考慮使用 opencode]]
+
 https://www.youtube.com/watch?v=t0Mesp118l4
 OpenRoute 搭配 opencode
 
 ---
+[[Clue-20260601 - OpenCode 的 Go 方案，裡面有個 DeepSeek V4 Flash 模型，用量幾乎是無限的。]]
+
 https://www.youtube.com/watch?v=r59BNhIuh_4&t=1711s
+
 這部影片主要分享「OpenCode Go」方案的使用心得，並提倡一個核心理念：**「AI 工具分工學：最聰明的模型做規劃，最便宜的模型做苦工」**
 - Summary:
 - New findings:
