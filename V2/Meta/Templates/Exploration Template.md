@@ -31,7 +31,8 @@ created: <% tp.date.now("YYYY-MM-DD HH:mm") %>
 kind: exploration
 category: <% category %>
 
-status: active
+in-progress: true
+archived: false
 confidence: low
 
 promote_to_watchlist: false

@@ -2,7 +2,8 @@
 created: 2026-06-01 21:39
 kind: exploration
 category: ai_workflow
-status: active
+in-progress: true
+archived: false
 confidence: low
 promote_to_watchlist: false
 promote_to_project: false

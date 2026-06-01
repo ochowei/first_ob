@@ -3,7 +3,8 @@ created: 2026-06-01 16:13
 kind: watchlist
 domain: ai_tool
 cadence: biweekly
-active: true
+in-progress: true
+archived: false
 reviewed: true
 reviewed_at:
 last_surveyed:

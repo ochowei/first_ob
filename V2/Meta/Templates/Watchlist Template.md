@@ -47,7 +47,8 @@ created: <% tp.date.now("YYYY-MM-DD HH:mm") %>
 kind: watchlist
 domain: <% domain %>
 cadence: <% cadence %>
-active: true
+in-progress: true
+archived: false
 reviewed: false
 reviewed_at:
 last_surveyed:
