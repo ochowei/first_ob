@@ -1,10 +1,15 @@
 ---
-created: 2026-03-06T14:08:54+08:00
-type:
-  - reference
-category:
-  - ai-chat
+created: 2026-06-01
+kind: clue
+source_type: conversation
+needs_browsing: false
+reviewed: false
+last_reviewed:
 ---
+
+# 發想一款利用台北市 opendata 開發的，可以盈利的 app
+
+## Raw Capture
 
 協助我發想一款利用台北市 opendata 開發的，可以盈利的 app
 
@@ -501,3 +506,7 @@ data.taipei 已累積超過 8.5 億次資料服務，是亞洲最完整的城市
 ---
 
 要不要我也幫你想想**鳥／兔／鼠等小動物**飼主的需求？這群人雖小眾，但幾乎沒有 app 服務，是潛在的「冷門護城河」。或是你想再深挖**TNR 愛媽愛爸**這條垂直線？
+
+## Notes
+
+## Possible Follow-up

@@ -1,8 +1,46 @@
 ---
+created: 2026-06-01 20:33
+kind: watchlist
+domain: ai_tool
+cadence: weekly
+active: true
+reviewed: false
+reviewed_at:
+last_surveyed:
 feature: thumbnails/autocardlink/ea8733e82b588f428b21ab4b122038f0.jpg
 thumbnail: thumbnails/resized/2eefd83a16dc650f04a3fbde982834bf_86cf658e.webp
-created: 2026-04-26
 ---
+
+# AI 遊戲開發 Youtube
+
+## Why Track This?
+
+這個題目為什麼值得追蹤？
+
+## Current Understanding
+
+目前我已經知道什麼？
+
+## Tracking Boundary
+
+### 我要追蹤
+
+- 
+
+### 暫時不追蹤
+
+- 
+
+## Key Questions
+
+- 
+
+## Related Clues
+
+- 
+
+## Survey Log
+
 - [ ] 
 ```cardlink
 url: https://www.youtube.com/watch?v=EWJyO7VYE3U&t=86s
@@ -33,3 +71,8 @@ favicon: https://www.youtube.com/s/desktop/1904e31a/img/favicon_32x32.png
 image: https://i.ytimg.com/vi/Lk0Yar0InqA/maxresdefault.jpg
 ```
 
+
+
+## Next Actions
+
+- [ ]

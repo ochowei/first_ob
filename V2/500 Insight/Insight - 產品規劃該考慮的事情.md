@@ -18,6 +18,8 @@ confidence: high
 	- MVP 階段驗證「產品—市場訊號」
 	- Launch 階段驗證「可重複成長」
 	- Scale 階段驗證「可移轉組織」。核心金句：不是「能不能做出來」，而是「是否值得做、是否值得擴大」。
+- AI 時代最大的法律風險，不是模型，而是你拿來餵模型的資料。以及：「公開可見」不等於「可任意商用或重製」。
+
 
 ## The Core Concept / Principle
 
@@ -32,11 +34,31 @@ confidence: high
 - [[Clue-20260601 - Anthropic 官方教你如何打造AI原生新創公司]]
 - [[Clue-20260601 - Lawsnote vs 法源資訊]]
 
+---
 ## Actionable Takeaways / Applications
 
 我該如何應用這個洞察？有哪些具體行動或指導原則？
 
-- [ ] 
+[[Clue-20260601 - Anthropic 官方教你如何打造AI原生新創公司]]
+四段證據累積。
+	- Idea 階段驗證「解一個值得被解的問題」
+	- MVP 階段驗證「產品—市場訊號」
+	- Launch 階段驗證「可重複成長」
+	- Scale 階段驗證「可移轉組織」。核心金句：不是「能不能做出來」，而是「是否值得做、是否值得擴大」。
+
+
+##### [[Clue-20260601 - Lawsnote vs 法源資訊]] 
+-這篇文真正的核心其實是：
+
+> AI 時代最大的法律風險，  
+> 不是模型，  
+> 而是你拿來餵模型的資料。
+
+以及：
+
+> 「公開可見」不等於「可任意商用或重製」。
+
+---
 
 ## Unresolved Questions / Future Iterations
 

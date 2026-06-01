@@ -12,7 +12,8 @@ tags:
 
 # Summary
 
-目前 Notebook LM 沒有被妥善運用
+目前 Notebook LM 沒有被妥善運用。
+參考 [[Exploration - NotebookLM 的用途]]
 
 # Spark
 
