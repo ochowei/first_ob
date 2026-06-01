@@ -1,23 +1,19 @@
 ---
-created: 2026-06-01 17:56
+created: 2026-06-01 18:23
 kind: insight
-category: product_design
+category: tech_ai
 status: active
 confidence: high
 ---
 
-# 產品規劃該考慮的事情
+# 為什麼現在筆記不用 Anytype 或者 Notion
 
 ## TL;DR / Summary
 
-用 1-2 句話精煉這個洞察的核心結論。
-
 [[2026-06-01]]
-- 四段證據累積。
-	- Idea 階段驗證「解一個值得被解的問題」
-	- MVP 階段驗證「產品—市場訊號」
-	- Launch 階段驗證「可重複成長」
-	- Scale 階段驗證「可移轉組織」。核心金句：不是「能不能做出來」，而是「是否值得做、是否值得擴大」。
+為了要讓 AI coding agent 方便協助，所以只考慮使用 obsidian 或者 logseq。Notion 跟 Anytype 的資料夾結構太複雜了。
+
+- 
 
 ## The Core Concept / Principle
 
@@ -29,8 +25,7 @@ confidence: high
 
 這個洞察是基於哪些線索（Clues）、探索（Explorations）或觀察所推導出來的？（建議連結至相關筆記）
 
-- [[Clue-20260601 - Anthropic 官方教你如何打造AI原生新創公司]]
-- [[Clue-20260601 - Lawsnote vs 法源資訊]]
+- 
 
 ## Actionable Takeaways / Applications
 
