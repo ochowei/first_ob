@@ -23,8 +23,7 @@ source: https://github.com/ochowei/lpc-toolkit-2026-1
 ### 產品
 
 
-ChatGPT 專案(風險評估與產品定位)
-https://chatgpt.com/g/g-p-6a19990cecd881919dfe92ef4b223a13-lpc-jiao-se-chan-sheng-xiao-gong-ju/project
+
 
 LPC 效能優化方案
 https://gemini.google.com/share/e645d073c79d
@@ -63,9 +62,34 @@ https://gemini.google.com/share/7d7ca7fcba44
   [comment:: 競品分析]
   [create:: [[2026-05-30]]]
 
-- [ ] 
+
+#### Roadmap
+- 社群分析，相關作品歷史分析
+- 產品規劃
+	- ChatGPT 專案(風險評估與產品定位)
+		https://chatgpt.com/g/g-p-6a19990cecd881919dfe92ef4b223a13-lpc-jiao-se-chan-sheng-xiao-gong-ju/project 
+- 開發
+	- 確保舊功能都有正確的被包涵在 toolkit 裡面
+
 ### Log
 
+[[2026-06-02]]
+
+> 使用 agy 先把比對的範圍裁切到 spritesheet 左上角的第一張圖 , 然後使用最原始的 layers, `#sex=male&body=Body_Color_light&head=Human_Male_light&expression=Neutral_light`,
+> 找出一些問題並修復, 所以 e2e parity 測試變成 5+1(指定)+1(minimal) = 7 個, 此時在 local 端用本地 server 開啟 toolkit 跟 upstream 來測試都沒有問題。不過在 vercel preview 的版本跟 upstream 用 random 比對, 還是會出現動畫 render 不完全的問題。
+
+> 為 packages/core, packages/web 都加了 comment, 然後讓 codex 找出 toolkit 跟 upstream 不一致的地方, 並且寫在 github issue 上面。雖然只加了 comment, 但是 parity check 多了一個 fail, 所以只有成功 6 個。手動在 toolkit 跟 upstream 上面查看，反而覺得很正常，所以成功失敗可能不是一定的，就看圖層有沒有抓到。
+
+
+
+[[2026-06-01]]
+
+> 原本 codex 是在 fix-random-upstream-parity-mismatches 工作的，但是因為額度用完了，先保留 branch, 並把臨時的工作檔案 commit 到 fix-random-upstream-parity-mismatches-temp，從 origin/main 開始用 antigravity 試試看
+
+> [[Exploration - Antigravity 2.0 上安裝並套用 Superpowers]]
+> 透過 gemini 的舊 plugin 先裝好，另外有一個 chatgpt 的討論 [superpower on antigravity](https://chatgpt.com/share/6a1d9a29-0c2c-83a5-b80f-3c7fc39e8281)
+
+> 從 main 開始切一個新的 worktree
 ---
 2026-05-29
 

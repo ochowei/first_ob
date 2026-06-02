@@ -4,7 +4,7 @@ kind: exploration
 category: ai_workflow
 in-progress: true
 archived: false
-priority: medium
+priority: low
 confidence: low
 promote_to_watchlist: false
 promote_to_project: false

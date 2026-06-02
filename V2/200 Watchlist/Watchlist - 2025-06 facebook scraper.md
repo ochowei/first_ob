@@ -5,7 +5,7 @@ domain: dev_tool
 cadence: monthly
 in-progress: true
 archived: false
-priority: medium
+priority: low
 reviewed: true
 reviewed_at:
 last_surveyed:
