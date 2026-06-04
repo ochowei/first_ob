@@ -22,9 +22,6 @@ source: https://github.com/ochowei/lpc-toolkit-2026-1
 
 ### 產品
 
-
-
-
 LPC 效能優化方案
 https://gemini.google.com/share/e645d073c79d
 
@@ -73,14 +70,77 @@ https://gemini.google.com/share/7d7ca7fcba44
 
 ### Log
 
+[[2026-06-04]]
+> 繼續處理 toolkit 跟 upstream ，目前肉眼已經看不出來有哪裡不一樣，但是 codex 給的 followup 還有沒處理完的，繼續處理。
+
+> followup 都處理好了，並且合併到 [PR](https://github.com/ochowei/lpc-toolkit-2026-1/pull/44)
+
+> JSzip 方案具有 git repo 包含大量圖檔的問題，[與 chagpt 的討論](https://chatgpt.com/share/6a21105a-b184-83a6-b90d-0a7330f55fe0)。
+
+^eb209f
+
+> 測試了手機端在使用 JSzip 方案的效能表現，還滿順利的，比預期好得多。
+
+> [Fork 了 upstream 的 Repo](https://github.com/ochowei/Universal-LPC-Spritesheet-Character-Generator)
+
+> 接下來要想辦法處理 JSzip 問題 [[#^eb209f]]
+
+[[2026-06-03]]
+> 想試試看把上游圖片存入專案的 Git 倉庫，AI 建議兩個方法，(a) JSzip (b) Cloudflare R2，優先嘗試 (a)。
+
+> JSZip 在 runtime 效能上效果很好，但是這樣有個問題，就是 Repo 裡面太多碎小的圖片。
+
+> 但是目前 toolkit 的 render 一樣還是跟 upstream 不一致。另外就是在 vercel building 上會花許多時間。
+
+> 嘗試解決 toolkit 跟 upstream 不一致的問題。使用 [Antigravity 處理](https://github.com/ochowei/lpc-toolkit-2026-1/pull/45)，一直沒處理好。後來再使用 codex，目前看起來已有效果。
+
 [[2026-06-02]]
 
 > 使用 agy 先把比對的範圍裁切到 spritesheet 左上角的第一張圖 , 然後使用最原始的 layers, `#sex=male&body=Body_Color_light&head=Human_Male_light&expression=Neutral_light`,
 > 找出一些問題並修復, 所以 e2e parity 測試變成 5+1(指定)+1(minimal) = 7 個, 此時在 local 端用本地 server 開啟 toolkit 跟 upstream 來測試都沒有問題。不過在 vercel preview 的版本跟 upstream 用 random 比對, 還是會出現動畫 render 不完全的問題。
 
-> 為 packages/core, packages/web 都加了 comment, 然後讓 codex 找出 toolkit 跟 upstream 不一致的地方, 並且寫在 github issue 上面。雖然只加了 comment, 但是 parity check 多了一個 fail, 所以只有成功 6 個。手動在 toolkit 跟 upstream 上面查看，反而覺得很正常，所以成功失敗可能不是一定的，就看圖層有沒有抓到。
+> 為 packages/core, packages/web 都加了 comment, 然後讓 codex 找出 toolkit 跟 upstream 不一致的地方, 並且寫在 [github issue](https://github.com/ochowei/lpc-toolkit-2026-1/issues/39) 上面。雖然只加了 comment, 但是 parity check 多了一個 fail, 所以只有成功 6 個。手動在 toolkit 跟 upstream 上面查看，反而覺得很正常，所以成功失敗可能不是一定的，就看圖層有沒有抓到。
 
+> 處理了這個 issue，
+```
+1. Custom animation individual-frame export ：已修正
 
+exportByFrameZip 對 custom animation 改為輸出所有 frames，包括透明 frame；standard animation 仍 skip empty frames。
+
+2. extractAnimation API 差異 ：保留，已補測試說明
+toolkit 支援 custom animation extraction 被視為 API extension，不是 parity bug；ZIP 行為已正確。
+
+3. Split-by-item export granularity ：已修正
+
+exportByItemZip 現在依 item layer 分開輸出，match upstream split-by-item 行為。
+
+4. Custom upload / overlay model：保留，已補測試說明
+
+toolkit 繼續要求完整 832x3456 overlay sheet，這是產品模型差異；沒有改成 upstream 的 per-animation upload offset 模型，以避免破壞現有 UI。
+```
+>其中 2, 4 的影響
+```
+對，2 和 4 是保留差異。影響範圍如下：
+
+**2. extractAnimation 支援 custom animation**
+
+影響的是 **core API 行為**，不是目前 ZIP parity bug。
+
+- Upstream 的 extractAnimationFromCanvas 只處理 standard animation。
+- Toolkit 的 extractAnimation(sheet, 'wheelchair') 可以直接 crop custom animation block。
+- 影響功能：web preview / export code 可以用同一個 API 處理 standard 和 custom animation。
+- 風險：如果有人把 toolkit API 當成 upstream API mirror，會以為 custom animation 不該支援；所以我補了測試把它標成 toolkit API extension。
+
+ZIP 結果目前沒有因此錯，因為 custom ZIP export 已明確驗證。
+
+**4. Custom upload / overlay model**
+
+影響的是 **使用者上傳自訂圖層的格式與渲染方式**。
+
+Toolkit 現在要求上傳圖必須是完整 standard sheet：
+```
+
+> 因為效能還是有問題，所以根據 [AI 的建議](https://github.com/ochowei/lpc-toolkit-2026-1/issues/40)，[嘗試了方案一](https://github.com/ochowei/lpc-toolkit-2026-1/pull/42)，但是效果不好。
 
 [[2026-06-01]]
 
