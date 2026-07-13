@@ -52,8 +52,8 @@ https://gemini.google.com/share/7d7ca7fcba44
   [comment:: LPC 社群]
   [create:: [[2026-05-30]]]
 
-- [title:: RapicLPC]
-  [url:: [link](https://opengameart.org/content/liberated-pixel-cup-0)]
+- [title:: RapidLPC]
+  [url:: [link](https://etamity.itch.io/rapidlpc)]
   [category:: reference]
   [tags:: tool]
   [comment:: 競品分析]
@@ -70,6 +70,49 @@ https://gemini.google.com/share/7d7ca7fcba44
 
 ### Log
 
+[[2026-07-13]]
+改善 Web 角色入口與操作引導，補齊 CLI 文件、測試及 prerelease 版本支援
+
+[[2026-07-12]]
+> 完成 CLI 角色製作流程，包含建立、編輯、預覽、渲染、輸出與 attribution。
+
+[[2026-06-13]] [[2026-06-14]]
+> 強化 Web 匯出、動畫處理、版本相容性與基礎架構。
+
+[[2026-06-12]]
+> 修正釣竿不會顯示
+
+> 調整部位縮圖大小與 layout
+
+[[2026-06-11]]
+> 強化翻譯
+
+[[2026-06-10]]
+> 修正預著色問題
+
+[[2026-06-09]]
+> 研究產品規劃
+
+> 增加圖層 Loading 效果
+
+[[2026-06-08]]
+> 移除 zip 以外的圖片來源方式
+
+> 修正預設著色問題
+
+[[2026-06-06]]
+> 經過 antigravity 跟 codex 的嘗試，終於完成把本地端的圖片打包換成到 [forked repo](https://github.com/ochowei/Universal-LPC-Spritesheet-Character-Generator/tree/assets-release) 下載 zip，並且同步 upstream 追蹤的 commit id。這樣子既大幅提升了 vercel build 的速度，也解決了 git 需要儲存大量圖片的問題。
+
+[[2026-06-05]]
+> fork 了 upstream 到[自己的 repo](https://github.com/ochowei/Universal-LPC-Spritesheet-Character-Generator/tree/assets-release)
+
+> 更新了 git submodule: upstream 的 URL
+
+> 在 [forked repo](https://github.com/ochowei/Universal-LPC-Spritesheet-Character-Generator/tree/assets-release) 加了 CI 來產生 zip 到 release
+
+> 開始進行把本地端的圖片打包換成到 [forked repo](https://github.com/ochowei/Universal-LPC-Spritesheet-Character-Generator/tree/assets-release) 下載 zip
+
+
 [[2026-06-04]]
 > 繼續處理 toolkit 跟 upstream ，目前肉眼已經看不出來有哪裡不一樣，但是 codex 給的 followup 還有沒處理完的，繼續處理。
 
@@ -83,7 +126,7 @@ https://gemini.google.com/share/7d7ca7fcba44
 
 > [Fork 了 upstream 的 Repo](https://github.com/ochowei/Universal-LPC-Spritesheet-Character-Generator)
 
-> 接下來要想辦法處理 JSzip 問題 [[#^eb209f]]
+> 接下來要想辦法處理 JSzip 問題 [[#^eb209f]], 然後有一些 worktree 或者是branch 要清理
 
 [[2026-06-03]]
 > 想試試看把上游圖片存入專案的 Git 倉庫，AI 建議兩個方法，(a) JSzip (b) Cloudflare R2，優先嘗試 (a)。
@@ -168,3 +211,10 @@ Survey LPC 小工具發佈的風險 ^51ce81
 Survey LPC 角色設計的規格
 
 ---
+
+#### Attachment
+
+##### Deep Research Prompt
+
+```
+```

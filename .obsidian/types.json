@@ -26,6 +26,7 @@
     "TQ_show_urgency": "checkbox",
     "todos": "text",
     "type": "multitext",
-    "category": "multitext"
+    "category": "multitext",
+    "status": "multitext"
   }
 }

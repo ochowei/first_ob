@@ -1,16 +1,8 @@
 [
+  "templater-obsidian",
   "dataview",
-  "numerals",
-  "better-export-pdf",
-  "github-sync",
   "obsidian-git",
-  "featured-image",
-  "auto-card-link",
-  "journals",
-<<<<<<< Updated upstream
-  "nldates-obsidian"
-=======
   "nldates-obsidian",
-  "templater-obsidian"
->>>>>>> Stashed changes
+  "obsidian-tasks-plugin",
+  "favorite-note"
 ]

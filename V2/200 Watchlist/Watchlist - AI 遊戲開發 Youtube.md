@@ -43,6 +43,11 @@ thumbnail: thumbnails/resized/2eefd83a16dc650f04a3fbde982834bf_86cf658e.webp
 
 ## Survey Log
 
+[[2026-06-09]]
+[[Clue-20260609 - 網友分享的 AI 繪圖工具]]
+[[Clue-20260609 - 網友用AI開發遊戲的心得]]
+
+
 - [ ] 
 ```cardlink
 url: https://www.youtube.com/watch?v=EWJyO7VYE3U&t=86s

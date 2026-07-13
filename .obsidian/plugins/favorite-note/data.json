@@ -1,5 +1,7 @@
 {
   "icon": "star",
   "filled": true,
-  "favorites": {}
+  "favorites": {
+    "0": "V2/000 Home/In-Progress.base"
+  }
 }

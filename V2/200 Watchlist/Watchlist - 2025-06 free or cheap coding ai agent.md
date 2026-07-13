@@ -21,10 +21,11 @@ last_surveyed:
 
 可以嘗試
 - opencode
-- Nvdia LLM API key
+- [[Clue-20260601 - Nvidia 大語言模型 API Key]]
 - LM Studio 之類的本地 AI
 - claude code 可以調整一下接開源模型，codex 好像也可以
 - OpenRoute 搭配 claude code
+- [[Clue-20260609 - 免費使用 AI 的 free-claude-code Project]]
 
 ## Tracking Boundary
 
